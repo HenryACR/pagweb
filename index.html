@@ -1,213 +1,351 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Coca cola es labebida del Perú" />
-    <meta name="keywords" content="Coca cola es una bebida bal bal abla" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio Coca Cola</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="/css/normalize.css">
-
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <title>Document</title>
   </head>
-  <body>
-   
-    <header class="h-16 mb-5 border-b w-full fixed top bg-white">
-      <div class="max-w-5xl flex items-center justify-between h-full mx-auto">
-        <a href="index.html">
-          <img src="img/logo.svg" class="logo" width="100" />
-        </a>
-        <nav class="space-x-5">
-          <a href="#inicio">Inicio</a>
-          <a href="#nosotros">Nosotros</a>
-          <a href="#servicios">Servicios</a>
-          <a href="#galeria">Galeria</a>
-          <a href="#contactenos">Contactenos</a>
-          <a href="login.html">
-            <img src="img/usuario.png" class="iconoLogin" width="50" />
-          </a>
-        </nav>
-      </div>
-    </header>
-    <main class="pt-20">
-      <section id="inicio" class="max-w-5xl mx-auto mb-4">
-        <img src="img/bannerprincipal.jpg" />
-        <div class="bloque-inicio">
-          <h1 class="text-xl font-bold mb-2">Bienvenidos a Coca Cola</h1>
-          <p class="mb-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            faucibus urna velit, sed pellentesque felis ultricies consequat. Sed
-            lacinia efficitur dui, et mattis elit sodales ut. Phasellus sed
-            tellus nulla.
-          </p>
-          <a href="#nosotros" class="underline mb-4">Ver mas</a>
-        </div>
-      </section>
-      <section id="nosotros" class="max-w-5xl mx-auto mb-7">
-        <div class="max-w-5xl">
-          <div>
-            <h3 class="text-xl font-bold mb-2">Nosotros</h3>
-          </div>
-          Norem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          faucibus urna velit, sed pellentesque felis ultricies consequat. Sed
-          lacinia efficitur dui, et mattis elit sodales ut. Phasellus sed tellus
-          nulla. Nunc vehicula ipsum sodales, euismod ex tristique, pretium
-          felis. Vivamus laoreet luctus leo sit amet mattis. Proin ullamcorper
-          purus in diam iaculis, at lobortis sapien fringilla. Sed accumsan
-          posuere dignissim. Vivamus viverra nunc urna, vel bibendum tortor
-          volutpat ut.
-        </div>
-      </section>
-      <section id="servicios" class="mb-10">
-        <div class="max-w-5xl grid grid-cols-3 mx-auto gap-5">
-          <div>
-            <div>
-              <img src="img/servicio1.jpg" class="w-full" />
-            </div>
-            <div>
-              <h3>Servicio 1</h3>
-              <p>hdcbhdbcdhbchds cdhcbeh cehi</p>
-              <a href="#" class="boton">ver mas</a>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <img src="img/servicio2.jpg" class="w-full" />
-            </div>
-            <div>
-              <h3>Servicio 2</h3>
-              <p>hdcbhdbcdhbchds cdhcbeh cehi</p>
-              <a href="#" class="boton">ver mas</a>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <img src="img/servicio3.jpg" class="w-full" />
-            </div>
-            <div class="bloque-contenido-servicio">
-              <h3>Servicio 3</h3>
-              <p>hdcbhdbcdhbchds cdhcbeh cehi</p>
-              <a href="#" class="boton">ver mas</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        id="galeria"
-        class="max-w-5xl mx-auto grid grid-cols-3 gap-5 mb-10"
-      >
-        <div>
-          <div>
-            <img src="img/servicio1.jpg" class="w-full" />
-            <h4>Imagen1</h4>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="img/servicio2.jpg" class="w-full" />
-            <h4>Imagen2</h4>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="img/servicio3.jpg" class="w-full" />
-            <h4>Imagen3</h4>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="img/servicio4.jpg" class="w-full" />
-            <h4>Imagen4</h4>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="img/servicio5.jpg" class="w-full" />
-            <h4>Imagen5</h4>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img src="img/servicio6.jpg" class="w-full" />
-            <h4>Imagen6</h4>
-          </div>
-        </div>
-      </section>
-      <section id="contactenos" class="mb-10">
-        <div class="max-w-5xl mx-auto">
-          <div>
-            <h2 class="text-xl font-bold">Contáctenos</h2>
-          </div>
-          <div>
-            <form action="" method="post">
-              <div>
-                <label for="nombre" class="mb-5">Nombre:</label><br />
-                <input
-                  type="text"
-                  name="nombre"
-                  class="w-full border rounded-md mt-3"
-                />
-              </div>
-              <div>
-                <input type="email" name="email" class="form-control" />
-              </div>
-              <div>
-                <label for="mensaje" class="mb-5">Mensaje:</label><br />
-                <textarea
-                  name="mensaje"
-                  class="w-full border rounded-md mt-3"
-                  rows="7"
-                ></textarea>
-              </div>
-              <div>
-                <input type="submit" value="Enviar" />
-              </div>
-            </form>
-          </div>
+  <header>
+    <nav>
+      <a href="/login.html">
+        <img src="/img/usuario.png" width="50" height="50">
+      </a>
+    </nav>
+  </header>
+  <body class="poppins-regular" style="background-color: #f4f4f4">
+    <!-- cuerpo de la pagina  -->
+    <!--start banner principal -->
+    <main class="margin-4" style="margin-bottom: 140px">
+      <section>
+        <div class="container">
+          <img src="./img/banner.png" alt="" class="img-banner" />
         </div>
       </section>
     </main>
-    <footer>
-      <div class="mx-auto max-w-5xl flex items-center space-x-8">
-        <div>
-          <img src="img/logo-blanco.png" class="mx-auto" />
-        </div>
-        <div>
-          <h3>temas relacionados</h3>
-          <ul>
-            <li><a href="#">Tema1</a></li>
-            <li><a href="#">Tema2</a></li>
-            <li><a href="#">Tema3</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Datos de contacto</h3>
-          <ul>
-            <li>ninoskac@gmail.com</li>
-            <li>963963852</li>
-            <li>Av.sin numero 555<br />Lima-Perú</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Redes Sociales</h3>
-          <ul>
-            <li>
-              <a href="#"><i></i></a>
-            </li>
-            <li>
-              <a href="#"><i></i></a>
-            </li>
-            <li>
-              <a href="#"><i></i></a>
-            </li>
-          </ul>
+    <!--end banner principal -->
+
+    <!--star section products-->
+    <section>
+      <div class="container">
+        <h1>PRODUCTOS MAS COMPRADOS</h1>
+        <div class="card">
+          <!--start card-->
+
+          <article class="card-product">
+            <img src="./img/producto01.jpg" alt="" class="img-card" />
+            <div class="content-card">
+              <h1 class="poppins-semibold">
+                PC Build #6788 RYZEN 7 5700X | RTX 4060 TI
+              </h1>
+              <div class="pie">
+                <div>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                </div>
+                <div>S/3009</div>
+              </div>
+            </div>
+          </article>
+          <!--end card-->
+          <!--start card-->
+
+          <article class="card-product">
+            <img src="./img/producto02.jpg" alt="" class="img-card" />
+            <div class="content-card">
+              <h1 class="poppins-semibold">
+                PC Build #6788 RYZEN 7 5700X | RTX 4060 TI
+              </h1>
+              <div class="pie">
+                <div>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                </div>
+                <div>S/3009</div>
+              </div>
+            </div>
+          </article>
+          <!--end card-->
+          <!--start card-->
+
+          <article class="card-product">
+            <img src="./img/producto03.jpg" alt="" class="img-card" />
+            <div class="content-card">
+              <h1 class="poppins-semibold">
+                PC Build #6788 RYZEN 7 5700X | RTX 4060 TI
+              </h1>
+              <div class="pie">
+                <div>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                </div>
+                <div>S/3009</div>
+              </div>
+            </div>
+          </article>
+          <!--end card-->
+          <!--start card-->
+
+          <article class="card-product">
+            <img src="./img/producto04.jpg" alt="" class="img-card" />
+            <div class="content-card">
+              <h1 class="poppins-semibold">
+                PC Build #6788 RYZEN 7 5700X | RTX 4060 TI
+              </h1>
+              <div class="pie">
+                <div>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    aria-hidden="true"
+                    style="color: #facc15"
+                  ></i>
+                </div>
+                <div>S/3009</div>
+              </div>
+            </div>
+          </article>
+          <!--end card-->
         </div>
       </div>
-      <div class="text-center">&copy;Derechos Reservados - 2024</div>
-    </footer>
+    </section>
+    <!--end section products-->
+
+    <!--start servicios -->
+    <section class="hero" style="margin-bottom: 80px;">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-description">
+            <div>
+              <h1 style="margin-bottom:0px;">Nuestros Servicios!!</h1>
+              <p style="margin-bottom:50px;">
+                "En ALTEK, nos especializamos en proporcionar servicios
+                integrales de mantenimiento de computadoras para empresas y
+                usuarios individuales. Nuestro equipo altamente capacitado y
+                experimentado está dedicado a garantizar que sus sistemas
+                informáticos funcionen de manera óptima en todo momento.
+              </p>
+              <div class="services">
+                <div class="top-circles" style="margin-bottom: 30px">
+                  <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                    <div class="circle-icon" style="background-color: #fde047;">
+                      <i class="fa fa-phone-square" aria-hidden="true" style="color: #a16207;"></i>
+                    </div>
+                    <p>Reparación de hardware</p>
+                  </div>
+                  <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                    <div class="circle-icon" style="background-color: #86efac;">
+                      <i class="fa fa-laptop" aria-hidden="true" style="color: #15803d;"></i>
+                    </div>
+                    <p>Reparación de software</p>
+                  </div>
+                <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                  <div class="circle-icon" style="background-color: #fca5a5">
+                    <i class="fa fa-desktop" aria-hidden="true" style="color: #b91c1c;"></i>
+                  </div>
+                  <p>Venta de computadoras</p>
+                </div>
+                </div>
+                <div class="bottom-circles">
+                  <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                    <div class="circle-icon" style="background-color: #7dd3fc;">
+                      <i class="fa fa-cogs" aria-hidden="true" style="color: #0369a1;"></i>
+                    </div>
+                    <p>Asistencia técnica</p>
+                  </div>
+                 <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                  <div class="circle-icon" style="background-color: #c4b5fd">
+                    <i class="fa fa-frown-o" aria-hidden="true" style="color: #6d28d9;"></i>
+                  </div>
+                  <p>Instalación de redes</p>
+                 </div>
+                 <div style="display: flex;align-items: center; flex-direction: column;width: 200px;">
+                  <div class="circle-icon" style="background-color: #fdba74;">
+                    <i class="fa fa-thermometer-full" aria-hidden="true" style="color: #c2410c;"></i>
+                  </div>
+                  <p>Recuperación de datos</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end servicios -->
+
+    <!--start contacto -->
+    <section class="container contacto-division" style="margin-bottom:180px;">
+      <div class="map-container"  style="border: 2px solid #ccc;padding: 5px;">
+        <!-- Aquí va el código de tu mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.4709010187084!2d-75.90312832405948!3d-11.518039532283705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9108c53550934615%3A0xab466149ce9dac9!2sAltek%20S.R.L!5e0!3m2!1ses!2spe!4v1714597019439!5m2!1ses!2spe" width="100%" height="450"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="form-container" >
+        <h2>Contacto</h2>
+        <form action="#" method="post" >
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--end contacto-->
+
+    <!--start reseñas-->
+  
+    
+    <div class="swiper mySwiper container" style="margin-bottom: 100px;">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><div class="card">   
+          <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
+        </div></div>
+        <div class="swiper-slide"><div class="card">   
+          <img src="https://media.istockphoto.com/id/1476170969/es/foto/retrato-de-un-joven-listo-para-el-trabajo-concepto-de-negocio.jpg?s=2048x2048&w=is&k=20&c=9RkQXvR6wGPIiMw5awpaQ8Ow-N-wGnq6c7dHgC5BtB8=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
+        </div></div>
+        <div class="swiper-slide"><div class="card">   
+          <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
+        </div></div>
+        <div class="swiper-slide"><div class="card">   
+          <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
+        </div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+    
+    <!--end reseñas-->
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+      </script>
+      
   </body>
 </html>

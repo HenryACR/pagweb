@@ -21,7 +21,13 @@ function validateLogin() {
         if (usersData.hasOwnProperty(username)) {
             // Verificar si la contraseña coincide
             if (usersData[username].password === password) {
+                console.log('Redirigiendo a index.html...');
+                setTimeout(function() {
+                    window.location.href = 'index.html'; 
+                }, 100);
                 alert('Inicio de sesión exitoso');
+                
+
                 return true;
             } else {
                 let errorMessage = document.getElementById('error-message');
@@ -33,6 +39,7 @@ function validateLogin() {
             errorMessage.innerText = 'Nombre de usuario no encontrado';
             return false;
         }
+        
     } catch (error) {
         console.error('Error en la función validateLogin:', error);
         return false;
@@ -72,6 +79,10 @@ function validarFormulario() {
         }
 
         alert('Registro exitoso');
+        setTimeout(function() {
+            window.location.href = 'login.html'; 
+        }, 100);
+        console.log("asd ", a);
 
         return true;
     } catch (error) {
