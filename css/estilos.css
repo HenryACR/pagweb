@@ -1,6 +1,140 @@
 .container{
-    max-width: 1050px;
-    margin: 0 auto 0 auto;
+  max-width: 1050px;
+  margin: 0 auto 0 auto;
+}
+
+header
+{
+
+padding: 0px 0;
+position: fixed;/*posicion fija*/
+top: 0;
+left:0;/*pegado a la izquierda*/
+z-index: 2; /*para que este encima*/
+width: 100%;/*para q ocupe todo el ancho*/
+background-color: white;
+}
+
+header.container
+{ 
+display:flex;/*comportamiento flex aprovecha el espacio de este elemento para acomodar a sus hijos*/
+
+justify-content: space-between; /*alinear al eje x los elenentos se acomodan uno a la iz otro a laderecha*/
+align-items: center;
+}
+
+header .container .logo
+{
+width: 150px;
+height: 80px;
+}
+
+header .container nav a
+{
+color:rgb(21, 0, 255);
+text-decoration: none;
+margin:30px 15px;
+
+}
+
+.fila{
+    display:flex;
+    /*flex-wrap:wrap;*/
+    justify-content: space-between; 
+    margin-right: -100px;
+    margin-left: -100px;
+}
+
+.columna{
+    padding-right: 55px;
+    padding-left: 55px;
+
+}
+
+
+.columna-50
+{
+    width: 50%;
+}
+.columna-50
+{
+    width: 41.66%;
+}
+
+
+
+#inicio
+{
+    position: relative;/*el espacio se mantiene*/
+}
+
+
+#inicio 
+{
+  background-image: url(img/.img-banner); 
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+#servicios
+{
+    position:relative;
+}
+
+
+
+#contactenos
+{
+    position:relative;
+}
+
+#contactenos iframe
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    filter:grayscale(1);
+
+}
+
+#contactenos form
+{
+padding: 60px;
+background-color: red;
+}
+
+#contactenos form .form-group
+{
+width: 100%;
+margin-bottom: 15px;
+}
+
+#contactenos form .form-group .form-container
+{
+display: block;
+height: 40px;
+font-size:16px;
+border:1px solid grey;
+width:100%;
+padding: 5px 10px;
+}
+
+#contactenos form .form-group textarea
+{
+display: block;
+height: 100px;
+font-size:16px;
+border:1px solid grey;
+width:100%;
+padding: 5px 10px;
+}
+
+#contactenos form .form-group
+{
+margin-bottom: 0;
 }
 
 .img-banner{
