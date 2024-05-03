@@ -25,13 +25,13 @@ align-items: center;
 
 header .container .logo
 {
-width: 150px;
-height: 80px;
+width: 120px;
+height: 90px;
 }
 
 header .container nav a
 {
-color:rgb(21, 0, 255);
+color: #333;
 text-decoration: none;
 margin:30px 15px;
 
@@ -41,8 +41,8 @@ margin:30px 15px;
     display:flex;
     /*flex-wrap:wrap;*/
     justify-content: space-between; 
-    margin-right: -100px;
-    margin-left: -100px;
+    align-items: center;
+    height: 70px;
 }
 
 .columna{
@@ -51,6 +51,11 @@ margin:30px 15px;
 
 }
 
+nav{
+  display: flex;
+  align-items: center;
+  
+}
 
 .columna-50
 {
@@ -310,10 +315,10 @@ button:hover {
   padding: 20px;
   background-color: #f8f8f8;
   border-radius: 5px;
-  border: 0.1rem solid black;
+ 
   display: flex;
   align-items: center;
-  border-color: black;
+  
 }
 
 /* Estilos para el título de la reseña */
@@ -327,4 +332,93 @@ button:hover {
 .card p {
   margin-bottom: 0;
   color: #666;
+}
+
+.borde{
+  border: 0.1rem solid black;
+  border-color: black;
+}
+
+.footer-info,
+.footer-links,
+.footer-social,
+.footer-subscribe {
+  width: 25%;
+}
+
+.footer-info h3,
+.footer-links h3,
+.footer-social h3,
+.footer-subscribe h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-info p {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 5px;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.footer-subscribe form {
+  display: flex;
+}
+
+.footer-subscribe input[type="email"] {
+  width: 70%;
+  padding: 10px;
+}
+
+.footer-subscribe button {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.footer-subscribe button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+.fofo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

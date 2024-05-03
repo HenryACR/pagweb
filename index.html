@@ -21,31 +21,32 @@
     <link rel="stylesheet" href="./css/fonts.css" />
     <title>Document</title>
   </head>
-  <header>
-    <div class="container">
-    <div class="fila">
-    <div class="columna-100">
-    <a href="index.html">
-    <img src="img/logo.png" class="logo" width="50"/>
-    </a> 
-    </div> 
-    <div class="columna-50">
-      <nav>
-        <a href="#Inicio">Inicio</a>
-        <a href="#Servicios">Servicios</a>
-        <a href="#Contactenos">Contáctenos</a>
-        <a href="#terminos">Terminos</a>  
-        <a href="/login.html">
-          <img src="/img/usuario.png" width="50" height="40" >
-        </a>
-    </div>
-    </div>
-    
-  </header>
+ 
   <body class="poppins-regular" style="background-color: #f4f4f4">
+    <header>
+      <div class="container fila">
+      
+      <div >
+        <a href="index.html">
+          <img src="img/logo.png" class="logo" width="30" height="40" />
+        </a> 
+      </div> 
+      <div >
+        <nav>
+          <a href="#Inicio">Inicio</a>
+          <a href="#Servicios">Servicios</a>
+          <a href="#Contactenos">Contáctenos</a>
+          <a href="#reseñas">Reseñas</a>  
+          <a href="/login.html" style="display:flex;align-items: center;">
+            <img src="/img/usuario.png" width="25" height="25" >
+          </a>
+        </nav>
+      </div>
+      </div>
+    </header>
     <!-- cuerpo de la pagina  -->
     <!--start banner principal -->
-    <main class="margin-4" style="margin-bottom: 140px">
+    <main class="margin-4" style="margin-bottom: 140px;margin-top: 120px;">
       <section id="Inicio">
         <div class="container">
           <img src="./img/banner.png" alt="" class="img-banner" />
@@ -323,21 +324,22 @@
     <!--start reseñas-->
   
     
-    <div class="swiper mySwiper container" style="margin-bottom: 100px;">
+    <div class="swiper mySwiper container" style="margin-bottom: 100px;" id="reseñas">
+      <h1>Reseñas de nuestros clientes</h1>
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><div class="card">   
+        <div class="swiper-slide"><div class="card borde">   
           <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
         </div></div>
-        <div class="swiper-slide"><div class="card">   
+        <div class="swiper-slide"><div class="card borde">   
           <img src="https://media.istockphoto.com/id/1476170969/es/foto/retrato-de-un-joven-listo-para-el-trabajo-concepto-de-negocio.jpg?s=2048x2048&w=is&k=20&c=9RkQXvR6wGPIiMw5awpaQ8Ow-N-wGnq6c7dHgC5BtB8=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
         </div></div>
-        <div class="swiper-slide"><div class="card">   
+        <div class="swiper-slide"><div class="card borde">   
           <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
         </div></div>
-        <div class="swiper-slide"><div class="card">   
+        <div class="swiper-slide"><div class="card borde">   
           <img src="https://media.istockphoto.com/id/466807030/es/foto/primer-plano-del-perfil-del-negocio-mujer-mirando-adelante.jpg?s=612x612&w=0&k=20&c=ngth55rul6YaTO88vjiwXojwYWoEqkkBt-22XpHv3Gg=" width="70px" height="70px"  style="border-radius: 50%;object-fit: cover;">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate minus consectetur quis fugit dolorum laudantium saepe excepturi  exercitationem quae quod!</p>
         </div></div>
@@ -347,7 +349,42 @@
     
     
     <!--end reseñas-->
-   
+    <footer style="margin-top:180px">
+      <div class="container fofo">
+        <div class="footer-info">
+          <h3>Información de Contacto</h3>
+          <p>Dirección: Jose Carlos Mariátegui 225, La Oroya 12576</p>
+          <p>Teléfono: 5658856756</p>
+          <p>Email: altek@altek.com</p>
+        </div>
+        <div class="footer-links">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contactenos</a></li>
+            <li><a href="#">Reseñas</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Redes Sociales</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/edwin.gomezalderete/?locale=es_LA"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <h3>Suscríbete a nuestro boletín</h3>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="Ingresa tu email" required>
+            <button type="submit">Suscribir</button>
+          </form>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
