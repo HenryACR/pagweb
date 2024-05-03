@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <title>Document</title>
+</head>
+<body class="poppins-regular" style="background-color: #f4f4f4">
+    <header>
+        <div class="container fila">
+        
+        <div >
+          <a href="index.html">
+            <img src="img/logo.png" class="logo" width="30" height="40" />
+          </a> 
+        </div> 
+        <div >
+          <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#Servicios">Servicios</a>
+            <a href="#Contactenos">Contáctenos</a>
+            <a href="#reseñas">Reseñas</a>  
+            <a href="tienda.html">Tienda</a>  
+            <a href="/login.html" style="display:flex;align-items: center;">
+              <img src="/img/usuario.png" width="25" height="25" >
+            </a>
+          </nav>
+        </div>
+        </div>
+      </header>
+    <main class="container tienda" style="margin-top:150px;background-color: #fff;border: #6b7280 0.1rem solid;border-radius: 1%;">
+        <aside class="sidebar">
+          <h2>Filtros de búsqueda</h2>
+          <!-- Aquí puedes agregar tus opciones de filtro -->
+          <label for="category">Categoría:</label>
+          <select name="category" id="category">
+            <option value="ropa">Ropa</option>
+            <option value="accesorios">Accesorios</option>
+            <option value="electronica">Electrónica</option>
+          </select>
+          <label for="price">Precio:</label>
+          <input type="range" id="price" name="price" min="0" max="100" value="50">
+          <output for="price" id="priceValue">50</output>
+        </aside>
+        <section class="products">
+          <h2>Productos</h2>
+          <!-- Aquí se listarán los productos -->
+          <div class="product">
+            <div class="product-image">
+              <img src="./img/producto01.jpg" alt="Producto 1">
+            </div>
+            <div class="product-details">
+              <h3>Build #6788</h3>
+              <p>PC Build #6788 RYZEN 7 5700X | RTX 4060 TI</p>
+              <span class="price">S/3009</span>
+              <button>Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-image">
+              <img src="./img/producto02.jpg" alt="Producto 1">
+            </div>
+            <div class="product-details">
+              <h3>Build #6788</h3>
+              <p>PC Build #6788 RYZEN 7 5700X | RTX 4060 TI</p>
+              <span class="price">S/3009</span>
+              <button>Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-image">
+              <img src="./img/producto03.jpg" alt="Producto 1">
+            </div>
+            <div class="product-details">
+              <h3>Build #6788</h3>
+              <p>PC Build #6788 RYZEN 7 5700X | RTX 4060 TI</p>
+              <span class="price">S/3009</span>
+              <button>Agregar al carrito</button>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-image">
+              <img src="./img/producto04.jpg" alt="Producto 1">
+            </div>
+            <div class="product-details">
+              <h3>Build #6788</h3>
+              <p>PC Build #6788 RYZEN 7 5700X | RTX 4060 TI</p>
+              <span class="price">S/3009</span>
+              <button>Agregar al carrito</button>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer style="margin-top:180px">
+        <div class="container fofo">
+          <div class="footer-info">
+            <h3>Información de Contacto</h3>
+            <p>Dirección: Jose Carlos Mariátegui 225, La Oroya 12576</p>
+            <p>Teléfono: 5658856756</p>
+            <p>Email: altek@altek.com</p>
+          </div>
+          <div class="footer-links">
+            <h3>Enlaces</h3>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#">Contactenos</a></li>
+              <li><a href="#">Reseñas</a></li>
+              
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Redes Sociales</h3>
+            <ul>
+              <li><a href="https://www.facebook.com/edwin.gomezalderete/?locale=es_LA"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h3>Suscríbete a nuestro boletín</h3>
+            <form action="#" method="post">
+              <input type="email" name="email" placeholder="Ingresa tu email" required>
+              <button type="submit">Suscribir</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
