@@ -320,6 +320,15 @@
         </form>
       </div>
     </section>
+    <script>
+  document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita que el formulario se envíe de forma tradicional
+
+    // Aquí podrías agregar código para enviar los datos del formulario a través de AJAX si lo deseas
+
+    alert('Mensaje enviado exitosamente');
+  });
+</script>
     <!--end contacto-->
 
     <!--start reseñas-->
